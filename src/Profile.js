@@ -1,4 +1,5 @@
 import React from "react";
+import WithRouterSample from "./WithRouterSample";
 
 const data = {
   marco: {
@@ -24,6 +25,7 @@ const Profile = (test) => {
       <h3>
         {username}({profile.name})<p>{profile.description}</p>
       </h3>
+      <WithRouterSample />
     </div>
   );
 };
